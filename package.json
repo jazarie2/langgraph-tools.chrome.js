@@ -1,0 +1,30 @@
+{
+  "name": "langgraph-js-starter",
+  "version": "1.0.0",
+  "description": "LangGraph JavaScript/TypeScript starter project",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^0.2.33",
+    "@langchain/core": "^0.3.23",
+    "@langchain/openai": "^0.3.15",
+    "@langchain/anthropic": "^0.3.15",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0"
+  },
+  "keywords": ["langgraph", "javascript", "typescript", "ai", "agents"],
+  "author": "",
+  "license": "MIT"
+}
